@@ -752,22 +752,6 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
 
     }
 
-    //--------------------------------------------- SUPPORT Configuration -----------------------------------------------//
-
-   let supportstatus = await mk.findOne({
-
-      id: m.from,
-
-    });
-
-   let SUPPORTstatus = "false";
-
-    if (supportstatus) {
-
-      SUPPORTstatus = supportstatus.switchSUPPORT || "false";
-
-    }
-
     //---------------------------------------------- Group Banning Configuration --------------------------------------//
 
     let banGCStatus = await mk.findOne({ id: m.from });
@@ -1052,8 +1036,6 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       NSFWstatus,
 
       ECONOMYstatus,
-
-      SUPPORTstatus,
 
       isCreator,
 
