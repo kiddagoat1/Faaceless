@@ -57,7 +57,7 @@ Konnichiwa Senpai, I am "faaceless" an Opensource WhatsApp bot made by kiddagoat
 </h4>
 
 <p align="center" >
-    <a href="https://repl.it/github/kiddagoat1/faaceless">
+    <a href="https://repl.it/github.com/kiddagoat1/faaceless">
     <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
     </a>
     <br>     
