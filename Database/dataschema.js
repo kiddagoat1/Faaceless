@@ -21,17 +21,10 @@ const GroupSchema = new mongoose.Schema({
   chatBot: { type: String, default: "false" },
 
   botSwitch: { type: String, default: "true" },
-
-  claimed: { type: String, default: "true" },
-
-  guessed: { type: String, default: "true" },
-  bought: { type: String, default: "true" },
   
   switchNSFW: { type: String, default: "false" },
 
   switchECONOMY: { type: String, default: "false" },
-
-  switchSUPPORT: { type: String, default: "false" },
 
   switchWelcome: { type: String, default: "false" }
 
@@ -49,11 +42,7 @@ const UserSchema = new mongoose.Schema({
 
   reason: {type: String, default: "no reason" },
 
-  addedMods: { type: String, default: "false" },
-
-  battlemode: { type: String, default: "false" },
-
-  addedMasters: { type: String, default: "false" }
+  addedMods: { type: String, default: "false" }
 
 });
 
